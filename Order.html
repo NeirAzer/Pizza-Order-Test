@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Pizza Online</title>
+    <link rel="shortcut icon" href="Pizza hut.png" type="image/x-icon">
+    <style>
+
+        header {
+            text-align: center;
+            background-image: url(Banner.jpg);
+        }
+
+        h1 {
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+
+    </style>
+   
+</head>
+<body>
+
+    <!-- Header -->
+     <header>
+        <h1>Form Pemesanan Pizza</h1>
+        <p><strong><big>Pizza Hut</big></strong> 
+            <br>
+            <mark><i>Jaringan restoran pizza internasional, terkenal dengan format makan keluarga, layanan pesan antar, dan konsep restoran lain seperti Pizza Hut Italian Bistro</i></mark>
+        </p>
+        <nav>
+            <a href="#menu"><i>Lihat Menu</i></a> - 
+            <a href="#order"><i>Pesan Sekarang</i></a> -
+            <a href="#contact"><i>Kontak Kami</i></a>
+        </nav>
+        <hr>
+
+     </header>
+    
+    <!-- Section promo -->
+     <section>
+        <h2>Promo</h2>
+        <img src="promo.jpg" alt="Promo pizza" width="300">
+        <p><mark>Harga Eksklusif</mark> setiap hari rabu</p>
+        <ul>
+            <li>Lebih banyak</li>
+            <li>Lebih lebar</li>
+            <li>Lebih enak</li>
+            <li>Bermacam-macam toping</li>
+        </ul>
+     </section>
+
+     <!-- Section Menu -->
+      <section id="menu">
+        <h2>Menu</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Ukuran</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pizza Mozzarela</td>
+                    <td>Medium</td>
+                    <td>30.000</td>
+                </tr>
+                <tr>
+                    <td>Pizza Cheese</td>
+                    <td>Large</td>
+                    <td>47.500</td>
+                </tr>
+                <tr>
+                    <td>Pizza Deluxe</td>
+                    <td>Large</td>
+                    <td>55.000</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+    <!-- Form pemesanan -->
+     <section id="order">
+        <h2>Formulir pemesanan</h2>
+        <form action="">
+            <label for="Nama anda">Nama anda: </label>
+            <input id="Nama" type="text" placeholder="Masukan nama anda">
+            <br>
+            <br>
+
+            <label for="Email">Email: </label>
+            <input id="Email" type="email" placeholder="Masukan email anda">
+            <br>
+            <br>
+
+            <label for="Ukuran">Ukuran Pizza: </label>
+            <select name="Ukuran" id="Ukuran">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Toppings">Toppings: </label>
+            <input type="checkbox" name="Toppings" id="Toppings" value="Keju"> Keju
+            <input type="checkbox" name="Toppings" id="Toppings" value="Sosis"> Sosis
+            <input type="checkbox" name="Toppings" id="Toppings" value="Jamur"> Jamur
+            <input type="checkbox" name="Toppings" id="Toppings" value="Salsa"> Salsa
+            <br>
+            <br>
+
+            <label for="Jenis">Jenis pizza: </label>
+            <input type="radio" name="Jenis" id="Jenis" value="Reguler"> Reguler
+            <input type="radio" name="Jenis" id="Jenis" value="Rectangle"> Rectangle
+            <input type="radio" name="Jenis" id="Jenis" value="Deluxe"> Deluxe
+            <br>
+            <br>
+
+            <label for="Catatan">Catatan</label>
+            <br>
+            <textarea name="Catatan" id="Catatan" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+
+            <Button type="submit">Pesan Sekarang</Button>
+            <br>
+            <br>
+            
+
+        </form>
+     </section>
+
+    <!-- Contact section -->
+     <section id="contact">
+        <h2>Kontak kami</h2>
+        <P> Jl.Surajim Bogor</P>
+        <p> XXXX-XXXX-XXXX</p>
+        <p> Email <a href="https://mail.google.com/mail/u/0/#inbox">Pizzahut@gmail.com</a></p> 
+     </section>
+
+     <!-- Footer -->
+      <footer>
+        <br>
+        <p><small>&copy; Pizza Hut. All right reserved.</small></p>
+      </footer>
+
+</body>
+</html>
